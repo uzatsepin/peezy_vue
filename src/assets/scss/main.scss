@@ -1,0 +1,17 @@
+@import "settings";
+
+:root {
+    --font-family: "Tauri", sans-serif;
+    --content-width: 1140px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+    --light-color: #fff;
+    --bgHero: #fffded;
+    --globalColorText: #071013;
+    --globalColorGreen: #64b541;
+    --globalColorGreenHover: #75cc4f;
+    --darkGreen: #346B2B;
+    --linkColor: #046bd2;
+    --linkHoverColor: #045cb4;
+}
