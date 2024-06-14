@@ -1,4 +1,5 @@
 import PocketBase from 'pocketbase';
 
-const url = 'https://peezy-coin.pockethost.io/'
+const url = import.meta.env.VITE_PBLink
+
 export const client = new PocketBase(url)
