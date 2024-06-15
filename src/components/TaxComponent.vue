@@ -27,7 +27,7 @@ const statsItem = [
             <div class="tax__overlay"></div>
             <div class="tax__container">
                 <h2 class="tax__container-title" :class="{'fadeInUp' : true}">No Tax Just Gains!</h2>
-                <p class="tax__container-descr">
+                <p class="tax__container-descr" :class="{'fadeInUp' : true}">
                     Peezy is all about the fam. We’re building a squad where everyone’s got a voice and can contribute to the future
                     of Peezy. It’s a place where memes meet money, and everyone’s invited.
                 </p>
@@ -96,6 +96,7 @@ const statsItem = [
 
             @media screen and (max-width: 767px) {
                 font-size: 97px;
+                line-height: 90px;
             }
         }
         &-descr {
@@ -106,6 +107,7 @@ const statsItem = [
             font-size: 16px;
             line-height: 26px;
             opacity: 0;
+            font-family: "Tauri", sans-serif;
 
             &.fadeInUp {
                 animation: fadeInUp 1s forwards;

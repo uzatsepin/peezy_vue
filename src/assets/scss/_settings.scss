@@ -132,3 +132,28 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
+
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background: transparent;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--bgHero);
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--bgHero);
+    border-radius: 4px;
+}
+
+*::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--globalColorGreen) var(--bgHero);
+}
