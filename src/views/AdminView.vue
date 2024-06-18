@@ -12,7 +12,7 @@ const dbData = computed(() => userStore.webData)
 
 const router = useRouter()
 
-const recordId = 'avrltsgzrtziohr'
+const recordId = 'y5ap926ebnj97ct'
 
 const address = ref('')
 const linkDexTool = ref('')
